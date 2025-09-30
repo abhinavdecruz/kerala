@@ -19,19 +19,13 @@ This folder contains placeholder files for the Kerala travel brochure website. T
 - `st-francis-church.jpg` - St. Francis Church in Fort Kochi
 
 ### Kerala Cuisine:
-- `sadya-feast.jpg` - Traditional Kerala Sadya feast on banana leaves
-- `karimeen-pollichathu.jpg` - Karimeen Pollichathu fish dish
-- `kerala-prawn-curry.jpg` - Kerala prawn curry
-- `appam-stew.jpg` - Appam and stew
-- `payasam-dessert.jpg` - Kerala Payasam dessert
-- `kerala-tea.jpg` - Kerala tea plantation
+**Note: The cuisine section uses emojis instead of images, so no image files are needed for this section.**
 
 ### Hero Section:
 - `kerala-backwaters.jpg` - Kerala backwaters landscape
 
 ## Image Specifications:
 - **Places & Landmarks**: Recommended size 800x600px or larger
-- **Food Images**: Recommended size 400x400px or larger
 - **Hero Image**: Recommended size 1200x800px or larger
 - **Format**: JPG or PNG
 - **Quality**: High resolution for web display
