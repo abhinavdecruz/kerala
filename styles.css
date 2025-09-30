@@ -188,6 +188,41 @@ body {
     justify-content: center;
 }
 
+/* Image Styles */
+.location-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.location-image:hover {
+    transform: scale(1.05);
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.food-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.food-image:hover {
+    transform: scale(1.1);
+}
+
 /* Timeline Styles */
 .timeline {
     position: relative;
@@ -280,6 +315,8 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
 }
 
 .place-content {
@@ -324,6 +361,8 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 2.5rem;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
 }
 
 .landmark-content {
@@ -382,6 +421,9 @@ body {
 .food-icon {
     font-size: 3rem;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .food-item h3 {
