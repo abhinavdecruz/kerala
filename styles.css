@@ -188,6 +188,55 @@ body {
     justify-content: center;
 }
 
+/* Image Styles */
+.hero-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
+.place-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.place-img:hover {
+    transform: scale(1.1);
+}
+
+.landmark-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.landmark-img:hover {
+    transform: scale(1.1);
+}
+
+.food-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.food-img:hover {
+    transform: scale(1.05);
+}
+
 /* Timeline Styles */
 .timeline {
     position: relative;
@@ -275,11 +324,8 @@ body {
 
 .place-image {
     height: 200px;
-    background: linear-gradient(135deg, #4a7c59, #6b8e6b);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
 }
 
 .place-content {
@@ -319,11 +365,8 @@ body {
 
 .landmark-image {
     height: 180px;
-    background: linear-gradient(135deg, #2c5530, #4a7c59);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
 }
 
 .landmark-content {
@@ -382,6 +425,11 @@ body {
 .food-icon {
     font-size: 3rem;
     margin-bottom: 20px;
+}
+
+/* Remove food-icon styles since we're using images now */
+.food-item .food-icon {
+    display: none;
 }
 
 .food-item h3 {
